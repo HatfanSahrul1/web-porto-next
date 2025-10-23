@@ -1,6 +1,7 @@
 'use client';
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import TechTools from "@/components/TechTools";
 import Projects from "@/components/Projects";
@@ -53,6 +54,7 @@ export default function Home() {
           <div className="flex gap-6 text-white">
             <a href="#about" className="hover:text-[#FF00FF] transition-colors">About</a>
             <a href="#projects" className="hover:text-[#FF00FF] transition-colors">Projects</a>
+            <Link href="/artikel" className="hover:text-[#FF00FF] transition-colors">Artikel</Link>
             <a href="#contact" className="hover:text-[#FF00FF] transition-colors">Contact</a>
           </div>
         </div>
@@ -61,7 +63,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center text-center px-4 pt-20">
         <div className="max-w-4xl">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
             Hatfan Sahrul Ramadhan
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8">
