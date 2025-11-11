@@ -1,24 +1,32 @@
+import { 
+  SiC, SiCplusplus, SiSharp, SiPython, SiJavascript,
+  SiOpencv, SiRos, SiMysql, SiPhp, SiUnity,
+  SiFigma, SiPandas, SiScikitlearn, SiGit 
+} from 'react-icons/si';
+import { FaGamepad, FaBox } from 'react-icons/fa';
+
 interface TechItem {
   name: string;
-  icon: string;
+  icon: React.ComponentType<{ size?: number; color?: string }>;
+  color: string;
 }
 
 const techItems: TechItem[] = [
-  { name: "C", icon: "🔧" },
-  { name: "C++", icon: "⚙️" },
-  { name: "C#", icon: "🔷" },
-  { name: "Python", icon: "🐍" },
-  { name: "JavaScript", icon: "📜" },
-  { name: "OpenCV", icon: "👁️" },
-  { name: "ROS", icon: "🤖" },
-  { name: "MySQL", icon: "🗄️" },
-  { name: "PHP", icon: "🐘" },
-  { name: "Unity", icon: "🎮" },
-  { name: "Raylib", icon: "📦" },
-  { name: "Figma", icon: "🎨" },
-  { name: "Pandas", icon: "🐼" },
-  { name: "Scikit-learn", icon: "🧠" },
-  { name: "Git", icon: "📚" },
+  { name: "C", icon: SiC, color: "#A8B9CC" },
+  { name: "C++", icon: SiCplusplus, color: "#00599C" },
+  { name: "C#", icon: SiSharp, color: "#239120" },
+  { name: "Python", icon: SiPython, color: "#3776AB" },
+  { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
+  { name: "OpenCV", icon: SiOpencv, color: "#5C3EE8" },
+  { name: "ROS", icon: SiRos, color: "#22314E" },
+  { name: "MySQL", icon: SiMysql, color: "#4479A1" },
+  { name: "PHP", icon: SiPhp, color: "#777BB4" },
+  { name: "Unity", icon: SiUnity, color: "#FFFFFF" },
+  { name: "Raylib", icon: FaBox, color: "#FF6B6B" },
+  { name: "Figma", icon: SiFigma, color: "#F24E1E" },
+  { name: "Pandas", icon: SiPandas, color: "#150458" },
+  { name: "Scikit-learn", icon: SiScikitlearn, color: "#F7931E" },
+  { name: "Git", icon: SiGit, color: "#F05032" },
 ];
 
 export default function TechTools() {
@@ -33,7 +41,7 @@ export default function TechTools() {
               className="group flex flex-col items-center p-4 bg-gray-900/50 rounded-xl hover:bg-gray-800/70 transition-all duration-300 hover:scale-105"
             >
               <div className="text-3xl mb-2 group-hover:scale-110 transition-transform">
-                {tech.icon}
+                <tech.icon size={32} color={tech.color} />
               </div>
               <span className="text-gray-300 text-sm font-medium">{tech.name}</span>
             </div>
