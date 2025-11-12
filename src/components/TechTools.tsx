@@ -1,4 +1,6 @@
-// Menggunakan Iconify Icons
+// Menggunakan Iconify Icons dengan wrapper component
+import IconifyIcon from './IconifyIcon';
+
 interface TechItem {
   name: string;
   icon: string;
@@ -35,7 +37,7 @@ export default function TechTools() {
               className="group flex flex-col items-center p-4 bg-gray-900/50 rounded-xl hover:bg-gray-800/70 transition-all duration-300 hover:scale-105"
             >
               <div className="text-3xl mb-2 group-hover:scale-110 transition-transform">
-                <iconify-icon 
+                <IconifyIcon 
                   icon={tech.icon} 
                   style={{ color: tech.color, fontSize: '32px' }}
                 />

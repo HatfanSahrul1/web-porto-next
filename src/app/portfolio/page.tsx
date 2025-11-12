@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
+import IconifyIcon from '@/components/IconifyIcon';
 
 // Import data dari porto.json
 import portfolioData from '../../../porto.json';
@@ -116,7 +117,7 @@ export default function PortfolioPage() {
                   {/* Image Placeholder */}
                   <div className="h-48 bg-gradient-to-br from-purple-900/50 to-pink-900/50 flex items-center justify-center">
                     <div className="text-center text-gray-300">
-                      <iconify-icon 
+                      <IconifyIcon 
                         icon="simple-icons:unity" 
                         style={{ fontSize: '48px', color: '#FF00FF' }}
                       />
@@ -170,7 +171,7 @@ export default function PortfolioPage() {
                   {/* Image Placeholder */}
                   <div className="h-48 bg-gradient-to-br from-blue-900/50 to-cyan-900/50 flex items-center justify-center">
                     <div className="text-center text-gray-300">
-                      <iconify-icon 
+                      <IconifyIcon 
                         icon="simple-icons:opencv" 
                         style={{ fontSize: '48px', color: '#5C3EE8' }}
                       />
@@ -217,7 +218,7 @@ export default function PortfolioPage() {
                   {/* Image Placeholder */}
                   <div className="h-48 bg-gradient-to-br from-green-900/50 to-emerald-900/50 flex items-center justify-center">
                     <div className="text-center text-gray-300">
-                      <iconify-icon 
+                      <IconifyIcon 
                         icon="simple-icons:github" 
                         style={{ fontSize: '48px', color: '#24292e' }}
                       />
@@ -258,7 +259,7 @@ export default function PortfolioPage() {
             {portfolioData.awards.map((award, index) => (
               <div key={index} className="bg-black/30 backdrop-blur-sm border border-gray-800 rounded-xl p-6 flex items-center">
                 <div className="text-3xl mr-4">
-                  <iconify-icon 
+                  <IconifyIcon 
                     icon="simple-icons:adobeillustrator" 
                     style={{ fontSize: '32px', color: '#FFD700' }}
                   />
