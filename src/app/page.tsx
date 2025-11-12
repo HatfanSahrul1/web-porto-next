@@ -54,6 +54,7 @@ export default function Home() {
           <div className="flex gap-6 text-white">
             <a href="#about" className="hover:text-[#FF00FF] transition-colors">About</a>
             <a href="#projects" className="hover:text-[#FF00FF] transition-colors">Projects</a>
+            <Link href="/portfolio" className="hover:text-[#FF00FF] transition-colors">Portfolio</Link>
             <Link href="/artikel" className="hover:text-[#FF00FF] transition-colors">Artikel</Link>
             <a href="#contact" className="hover:text-[#FF00FF] transition-colors">Contact</a>
           </div>

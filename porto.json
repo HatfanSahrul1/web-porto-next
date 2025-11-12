@@ -1,0 +1,276 @@
+{
+  "personalInfo": {
+    "name": "Hatfan Sahrul Ramadhan",
+    "title": "Game Programmer",
+    "links": {
+      "website": "hatfansahrul.netlify.app",
+      "linkedin": "https://www.linkedin.com/in/hatfansahrul",
+      "email": "hatfansahrul@gmail.com",
+      "instagram": "https://instagram.com/hatfansahrul",
+      "github": "https://github.com/HatfanSahrull"
+    }
+  },
+  "aboutMe": "Game Programmer dengan pengalaman dalam game development lebih dari 3 tahun, computer vision, dan kecerdasan buatan. Aktif mengerjakan proyek lintas bidang seperti robotika berbasis ROS, machine learning, serta game interaktif menggunakan Unity. Terbiasa bekerja dalam tim, memiliki kemampuan problem solving yang kuat, dan berfokus pada solusi inovatif serta efisien di bidang teknologi interaktif.",
+  "education": [
+    {
+      "degree": "Sarjana Terapan Teknologi Game",
+      "institution": "PENS (Politeknik Elektronika Negeri Surabaya)",
+      "period": "2023-Sekarang"
+    },
+    {
+      "degree": "MIPA",
+      "institution": "SMAN 1 Kendal Ngawi",
+      "period": "2020-2023"
+    }
+  ],
+  "projects": [
+    {
+      "year": 2021,
+      "title": "ARKISAH (Buku Cerita Rakyat berbasis AR)",
+      "achievements": [
+        "Juara 1 SMA AWARDS 2021 Kategori Technopreneur"
+      ],
+      "links": []
+    },
+    {
+      "year": 2022,
+      "title": "EDUCELLS DUNGEON (Game Edukasi Sel Hewan dan Tumbuhan)",
+      "achievements": [
+        "Terbaik 1 Apresisasi 3 Menit Karya Akhir Siswa PROCOMMIT ITS 2022"
+      ],
+      "links": []
+    },
+    {
+      "year": 2023,
+      "title": "Si-ABaS (Aplikasi Apotek Bank Sampah)",
+      "achievements": [
+        "Juara 1 EMWEEK 11 2024",
+        "Best Presentation in BIZMART PPNS 2024",
+        "Semifinal Samsung Solve for Tomorrow 2023"
+      ],
+      "links": []
+    },
+    {
+      "year": 2024,
+      "title": "D'Scroll Inspector",
+      "achievements": [],
+      "links": [
+        "https://github.com/HatfanSahrul1/Catch-the-Oligarks"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Kala the Dark Ritual",
+      "achievements": [
+        "Juara 2 Local Game Selection Surakarta 2025"
+      ],
+      "links": []
+    },
+    {
+      "year": 2025,
+      "title": "Shutter Spirit",
+      "achievements": [],
+      "links": [
+        "https://growbyte.itch.io/shutter-spirit"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Cloud Farer",
+      "achievements": [
+        "TOP 60 Student Best Game Category GAMESEED 2025"
+      ],
+      "links": []
+    },
+    {
+      "year": 2025,
+      "title": "Selamatkan Babu",
+      "achievements": [],
+      "links": [
+        "https://paduranta.itch.io/selamatkan-babu"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "UpperCup (Raylib)",
+      "achievements": [],
+      "links": [
+        "https://github.com/HatfanSahrul1/Upper-Cup"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Catch the Oligarks (Embedded System Integrated)",
+      "achievements": [],
+      "links": [
+        "https://github.com/HatfanSahrull/Catch-the-Oligarks"
+      ]
+    }
+  ],
+  "freelanceProjects": [
+    {
+      "title": "Vision-Based Vital Signs Detection using YOLOv8",
+      "description": [
+        "Labelling dataset yang lebih dari 1000 gambar",
+        "Training model menggunakan YOLOv8n",
+        "Fine-Tuning Model hingga mencapai akurasi lebih dari 80%",
+        "Membuat algoritma untuk melakukan inference dan post-processing model",
+        "Mengoptimalisasi model dengan melakukan Quantization pada model"
+      ],
+      "links": [
+        "https://github.com/sultansyahputray/yolov8-project-HR"
+      ]
+    },
+    {
+      "title": "Animasi Simulasi Perlombaan JRC (Java Robot Contest)",
+      "description": [
+        "Membuat animasi untuk simulasi perlombaan robot transporter dan line-follower tingkat SD, SMP, dan SMA"
+      ],
+      "links": [
+        "https://www.instagram.com/reel/DBaYEU4MxAL/",
+        "https://www.instagram.com/reel/DBaX2c6tgw9/",
+        "https://www.instagram.com/reel/DBaXif_MBIB/"
+      ]
+    }
+  ],
+  "personalProjects": [
+    {
+      "title": "YoloDoLabel",
+      "description": "Tool sederhana untuk memanfaatkan model YOLO yang kurang robust untuk membantu memberikan label pada dataset",
+      "links": [
+        "https://github.com/HatfanSahrull/YoloDoLabel"
+      ]
+    },
+    {
+      "title": "Unity Local Backend (Docker)",
+      "description": "Template REST API sederhana dan siap pakai untuk Unity secara local dan dalam docker. Dibuat dengan bahasa Typescript serta menggunakan ExpressJS",
+      "links": [
+        "https://github.com/HatfanSahrull/unity-backend-docker-local"
+      ]
+    }
+  ],
+  "organizationsAndVolunteering": [
+    {
+      "period": "2023-Sekarang",
+      "organization": "EEPIS Robot Soccer (EROS)",
+      "role": "Computer Vision Engineer",
+      "description": [
+        "Riset dan Lomba"
+      ]
+    },
+    {
+      "period": "Tahun 2024",
+      "organization": "Program Studi Teknologi Game PENS",
+      "role": "Relawan",
+      "description": [
+        "Pengabdian Masyarakat: Peningkatan Kesadaran Kebersihan kepada Masyarakat melalui Game HABERTAN"
+      ]
+    },
+    {
+      "period": "Tahun 2024",
+      "organization": "EEPIS Robot Soccer (EROS)",
+      "role": "Programming Instructor",
+      "description": [
+        "Workshop EROS : Basic Intelligent System"
+      ]
+    },
+    {
+      "period": "Tahun 2025",
+      "organization": "EEPIS Robot Soccer (EROS)",
+      "role": "Chief Organizer",
+      "description": [
+        "Workshop EROS: Forging The Future of Humanoids"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "year": 2021,
+      "title": "Juara 1 SMA AWARDS Kategori Technopreneur"
+    },
+    {
+      "year": 2022,
+      "title": "Terbaik 1 Apresisasi 3 Menit Karya Akhir Siswa PROCOMMIT ITS"
+    },
+    {
+      "year": 2024,
+      "title": "Juara 2 Kontes Robot Sepak Bola Indonesia – Humanoid Tingkat Wilayah"
+    },
+    {
+      "year": 2024,
+      "title": "Juara Harapan Kontes Robot Sepak Bola Indonesia - Humanoid Tingkat Nasional"
+    },
+    {
+      "year": 2024,
+      "title": "Pemenang Technical Challenge Kontes Robot Sepak Bola Indonesia - Humanoid"
+    },
+    {
+      "year": 2024,
+      "title": "Desain Terbaik Kontes Robot Sepak Bola Indonesia - Humanoid"
+    },
+    {
+      "year": 2025,
+      "title": "Juara 2 Local Game Selection Surakarta"
+    },
+    {
+      "year": 2025,
+      "title": "TOP 60 Student Best Game Category GAMESEED 2025"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Peningkatan Kesadaran Kebersihan Melalui Game \"Habertan\" Pada Siswa Siswi Pesantren Muhyiddin Gebang Putih, Sukolilo, Surabaya",
+      "link": "https://doi.org/10.37339/jurpikat.v5i4.2032"
+    }
+  ],
+  "coursesAndTraining": [
+    {
+      "year": 2025,
+      "title": "Vocational School Graduate Academy : Intermediate Junior Web Developer",
+      "issuer": "Digitalent, KOMDIGI",
+      "status": "Completed"
+    },
+    {
+      "year": 2023,
+      "title": "Introduction to C++",
+      "issuer": "Sololearn",
+      "status": "Completed"
+    },
+    {
+      "year": 2025,
+      "title": "Data Science: Complete Data Science & Machine Learning",
+      "issuer": "Udemy",
+      "status": "On-going"
+    },
+    {
+      "year": 2023,
+      "title": "Introduction to SQL",
+      "issuer": "Sololearn",
+      "status": "Completed"
+    },
+    {
+      "year": 2025,
+      "title": "Robotics & Mechatronics 3: Digital Twin Machines | Unity",
+      "issuer": "Udemy",
+      "status": "On-going"
+    },
+    {
+      "year": 2025,
+      "title": "Micro Skill: Konsep Pemrograman",
+      "issuer": "Digitalent, KOMDIGI",
+      "status": "Completed"
+    },
+    {
+      "year": 2025,
+      "title": "Docker & Kubernetes: The Practical Guide",
+      "issuer": "Udemy",
+      "status": "On-going"
+    },
+    {
+      "year": 2025,
+      "title": "Vocational School Graduate Academy: Fundamental Junior Web Developer",
+      "issuer": "Digitalent, KOMDIGI",
+      "status": "Completed"
+    }
+  ]
+}
