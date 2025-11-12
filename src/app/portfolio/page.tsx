@@ -116,8 +116,11 @@ export default function PortfolioPage() {
                   {/* Image Placeholder */}
                   <div className="h-48 bg-gradient-to-br from-purple-900/50 to-pink-900/50 flex items-center justify-center">
                     <div className="text-center text-gray-300">
-                      <div className="text-4xl mb-2">🎮</div>
-                      <p className="text-sm">Screenshot Game</p>
+                      <iconify-icon 
+                        icon="simple-icons:unity" 
+                        style={{ fontSize: '48px', color: '#FF00FF' }}
+                      />
+                      <p className="text-sm mt-2">Screenshot Game</p>
                     </div>
                   </div>
                   
@@ -167,8 +170,11 @@ export default function PortfolioPage() {
                   {/* Image Placeholder */}
                   <div className="h-48 bg-gradient-to-br from-blue-900/50 to-cyan-900/50 flex items-center justify-center">
                     <div className="text-center text-gray-300">
-                      <div className="text-4xl mb-2">💼</div>
-                      <p className="text-sm">Project Screenshot</p>
+                      <iconify-icon 
+                        icon="simple-icons:opencv" 
+                        style={{ fontSize: '48px', color: '#5C3EE8' }}
+                      />
+                      <p className="text-sm mt-2">Project Screenshot</p>
                     </div>
                   </div>
                   
@@ -211,8 +217,11 @@ export default function PortfolioPage() {
                   {/* Image Placeholder */}
                   <div className="h-48 bg-gradient-to-br from-green-900/50 to-emerald-900/50 flex items-center justify-center">
                     <div className="text-center text-gray-300">
-                      <div className="text-4xl mb-2">⚡</div>
-                      <p className="text-sm">Tool Screenshot</p>
+                      <iconify-icon 
+                        icon="simple-icons:github" 
+                        style={{ fontSize: '48px', color: '#24292e' }}
+                      />
+                      <p className="text-sm mt-2">Tool Screenshot</p>
                     </div>
                   </div>
                   
@@ -248,7 +257,12 @@ export default function PortfolioPage() {
           <div className="grid gap-4 md:grid-cols-2">
             {portfolioData.awards.map((award, index) => (
               <div key={index} className="bg-black/30 backdrop-blur-sm border border-gray-800 rounded-xl p-6 flex items-center">
-                <div className="text-3xl mr-4">🏆</div>
+                <div className="text-3xl mr-4">
+                  <iconify-icon 
+                    icon="simple-icons:adobeillustrator" 
+                    style={{ fontSize: '32px', color: '#FFD700' }}
+                  />
+                </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white mb-1">{award.title}</h3>
                   <p className="text-[#FF00FF]">{award.year}</p>
