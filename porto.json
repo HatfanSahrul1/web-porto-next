@@ -194,7 +194,7 @@
     },
     {
       "year": 2024,
-      "title": "Juara 2 Kontes Robot Sepak Bola Indonesia – Humanoid Tingkat Wilayah"
+      "title": "Juara 2 Kontes Robot Sepak Bola Indonesia - Humanoid Tingkat Wilayah"
     },
     {
       "year": 2024,
@@ -225,22 +225,10 @@
   ],
   "coursesAndTraining": [
     {
-      "year": 2025,
-      "title": "Vocational School Graduate Academy : Intermediate Junior Web Developer",
-      "issuer": "Digitalent, KOMDIGI",
-      "status": "Completed"
-    },
-    {
-      "year": 2023,
-      "title": "Introduction to C++",
-      "issuer": "Sololearn",
-      "status": "Completed"
-    },
-    {
-      "year": 2025,
-      "title": "Data Science: Complete Data Science & Machine Learning",
-      "issuer": "Udemy",
-      "status": "On-going"
+    "year": 2023,
+    "title": "Introduction to C++",
+    "issuer": "Sololearn",
+    "status": "Completed"
     },
     {
       "year": 2023,
@@ -250,27 +238,39 @@
     },
     {
       "year": 2025,
-      "title": "Robotics & Mechatronics 3: Digital Twin Machines | Unity",
-      "issuer": "Udemy",
-      "status": "On-going"
-    },
-    {
-      "year": 2025,
       "title": "Micro Skill: Konsep Pemrograman",
       "issuer": "Digitalent, KOMDIGI",
       "status": "Completed"
     },
     {
       "year": 2025,
-      "title": "Docker & Kubernetes: The Practical Guide",
+      "title": "Vocational School Graduate Academy: Fundamental Junior Web Developer",
+      "issuer": "Digitalent, KOMDIGI",
+      "status": "Completed"
+    },
+    {
+      "year": 2025,
+      "title": "Vocational School Graduate Academy : Intermediate Junior Web Developer",
+      "issuer": "Digitalent, KOMDIGI",
+      "status": "Completed"
+    },
+    {
+      "year": 2025,
+      "title": "Data Science: Complete Data Science & Machine Learning",
       "issuer": "Udemy",
       "status": "On-going"
     },
     {
       "year": 2025,
-      "title": "Vocational School Graduate Academy: Fundamental Junior Web Developer",
-      "issuer": "Digitalent, KOMDIGI",
-      "status": "Completed"
+      "title": "Robotics & Mechatronics 3: Digital Twin Machines | Unity",
+      "issuer": "Udemy",
+      "status": "On-going"
+    },
+    {
+      "year": 2025,
+      "title": "Docker & Kubernetes: The Practical Guide",
+      "issuer": "Udemy",
+      "status": "On-going"
     }
   ]
 }
