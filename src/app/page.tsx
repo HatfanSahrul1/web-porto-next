@@ -155,7 +155,7 @@ export default function Home() {
             href="#projects" 
             className="inline-block bg-[#FF00FF] hover:bg-[#CC00CC] text-white px-8 py-3 rounded-lg font-semibold transition-colors"
           >
-            View Projects
+            Lihat Proyek
           </a>
         </div>
       </section>
@@ -163,7 +163,7 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-[#FF00FF] mb-8">About Me</h2>
+          <h2 className="text-4xl font-bold text-[#FF00FF] mb-8">Tentang Saya</h2>
           <div className={`${getCardClasses()} rounded-xl p-8`}>
             <p className={`${getTextClasses('secondary')} text-lg leading-relaxed mb-6`}>
               {portfolioData.aboutMe}
@@ -248,16 +248,42 @@ export default function Home() {
           {activeTab === 'projects' && (
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               {portfolioData.projects.map((project, index) => (
-                <div key={index} className={`${getCardClasses()} rounded-xl overflow-hidden hover:scale-105 transition-transform duration-300`}>
-                  {/* Image Placeholder */}
-                  <div className="h-48 bg-gradient-to-br from-purple-900/50 to-pink-900/50 flex items-center justify-center">
-                    <div className="text-center text-gray-300">
-                      <IconifyIcon 
-                        icon="simple-icons:unity" 
-                        style={{ fontSize: '48px', color: '#FF00FF' }}
-                      />
-                      <p className="text-sm mt-2">Screenshot Game</p>
-                    </div>
+                <div key={index} className={`${getCardClasses()} rounded-xl overflow-hidden hover:scale-105 transition-transform`}>
+                  {/* Thumbnail with blur background effect */}
+                  <div className="h-48 relative overflow-hidden">
+                    {project.thumbnail ? (
+                      <>
+                        {/* Blurred background */}
+                        <div 
+                          className="absolute inset-0 bg-cover bg-center filter blur-md scale-110"
+                          style={{ 
+                            backgroundImage: `url(${project.thumbnail})`,
+                          }}
+                        />
+                        {/* Overlay for better contrast */}
+                        <div className="absolute inset-0 bg-black/30" />
+                        {/* Main image */}
+                        <div className="relative h-full flex items-center justify-center p-4">
+                          <Image 
+                            src={project.thumbnail}
+                            alt={project.title}
+                            width={300}
+                            height={200}
+                            className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
+                          />
+                        </div>
+                      </>
+                    ) : (
+                      <div className="h-full bg-gradient-to-br from-purple-900/50 to-pink-900/50 flex items-center justify-center">
+                        <div className="text-center text-gray-300">
+                          <IconifyIcon 
+                            icon="simple-icons:unity" 
+                            style={{ fontSize: '48px', color: '#FF00FF' }}
+                          />
+                          <p className="text-sm mt-2">Game Screenshot</p>
+                        </div>
+                      </div>
+                    )}
                   </div>
                   
                   <div className="p-6">
@@ -303,15 +329,41 @@ export default function Home() {
             <div className="grid gap-8 md:grid-cols-2">
               {portfolioData.freelanceProjects.map((project, index) => (
                 <div key={index} className={`${getCardClasses()} rounded-xl overflow-hidden`}>
-                  {/* Image Placeholder */}
-                  <div className="h-48 bg-gradient-to-br from-blue-900/50 to-cyan-900/50 flex items-center justify-center">
-                    <div className="text-center text-gray-300">
-                      <IconifyIcon 
-                        icon="simple-icons:opencv" 
-                        style={{ fontSize: '48px', color: '#5C3EE8' }}
-                      />
-                      <p className="text-sm mt-2">Project Screenshot</p>
-                    </div>
+                  {/* Thumbnail with blur background effect */}
+                  <div className="h-48 relative overflow-hidden">
+                    {project.thumbnail ? (
+                      <>
+                        {/* Blurred background */}
+                        <div 
+                          className="absolute inset-0 bg-cover bg-center filter blur-md scale-110"
+                          style={{ 
+                            backgroundImage: `url(${project.thumbnail})`,
+                          }}
+                        />
+                        {/* Overlay for better contrast */}
+                        <div className="absolute inset-0 bg-black/30" />
+                        {/* Main image */}
+                        <div className="relative h-full flex items-center justify-center p-4">
+                          <Image 
+                            src={project.thumbnail}
+                            alt={project.title}
+                            width={300}
+                            height={200}
+                            className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
+                          />
+                        </div>
+                      </>
+                    ) : (
+                      <div className="h-full bg-gradient-to-br from-blue-900/50 to-cyan-900/50 flex items-center justify-center">
+                        <div className="text-center text-gray-300">
+                          <IconifyIcon 
+                            icon="simple-icons:opencv" 
+                            style={{ fontSize: '48px', color: '#5C3EE8' }}
+                          />
+                          <p className="text-sm mt-2">Project Screenshot</p>
+                        </div>
+                      </div>
+                    )}
                   </div>
                   
                   <div className="p-6">
@@ -350,15 +402,41 @@ export default function Home() {
             <div className="grid gap-8 md:grid-cols-2">
               {portfolioData.personalProjects.map((project, index) => (
                 <div key={index} className={`${getCardClasses()} rounded-xl overflow-hidden`}>
-                  {/* Image Placeholder */}
-                  <div className="h-48 bg-gradient-to-br from-green-900/50 to-emerald-900/50 flex items-center justify-center">
-                    <div className="text-center text-gray-300">
-                      <IconifyIcon 
-                        icon="simple-icons:github" 
-                        style={{ fontSize: '48px', color: '#24292e' }}
-                      />
-                      <p className="text-sm mt-2">Tool Screenshot</p>
-                    </div>
+                  {/* Thumbnail with blur background effect */}
+                  <div className="h-48 relative overflow-hidden">
+                    {project.thumbnail ? (
+                      <>
+                        {/* Blurred background */}
+                        <div 
+                          className="absolute inset-0 bg-cover bg-center filter blur-md scale-110"
+                          style={{ 
+                            backgroundImage: `url(${project.thumbnail})`,
+                          }}
+                        />
+                        {/* Overlay for better contrast */}
+                        <div className="absolute inset-0 bg-black/30" />
+                        {/* Main image */}
+                        <div className="relative h-full flex items-center justify-center p-4">
+                          <Image 
+                            src={project.thumbnail}
+                            alt={project.title}
+                            width={300}
+                            height={200}
+                            className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
+                          />
+                        </div>
+                      </>
+                    ) : (
+                      <div className="h-full bg-gradient-to-br from-green-900/50 to-emerald-900/50 flex items-center justify-center">
+                        <div className="text-center text-gray-300">
+                          <IconifyIcon 
+                            icon="simple-icons:github" 
+                            style={{ fontSize: '48px', color: '#24292e' }}
+                          />
+                          <p className="text-sm mt-2">Tool Screenshot</p>
+                        </div>
+                      </div>
+                    )}
                   </div>
                   
                   <div className="p-6">

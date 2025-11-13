@@ -25,6 +25,7 @@ const techItems: TechItem[] = [
   { name: "Docker", icon: "simple-icons:docker", color: "#2496ED", colorDark: "#2496ED" },
   { name: "PHP", icon: "simple-icons:php", color: "#777BB4", colorDark: "#777BB4" },
   { name: "Unity", icon: "simple-icons:unity", color: "#000000", colorDark: "#FFFFFF" },
+  // { name: "Vuforia", icon: "simple-icons:vuforia", color: "#000000", colorDark: "#FFFFFF" },
   { name: "Raylib", icon: "simple-icons:raylib", color: "#000000", colorDark: "#FFFFFF" },
   { name: "Figma", icon: "simple-icons:figma", color: "#F24E1E", colorDark: "#F24E1E" },
   { name: "Pandas", icon: "simple-icons:pandas", color: "#150458", colorDark: "#150458" },

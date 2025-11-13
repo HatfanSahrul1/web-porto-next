@@ -27,6 +27,7 @@
     {
       "year": 2021,
       "title": "ARKISAH (Buku Cerita Rakyat berbasis AR)",
+      "thumbnail": "/arkisah/preview.png",
       "achievements": [
         "Juara 1 SMA AWARDS 2021 Kategori Technopreneur"
       ],
@@ -35,6 +36,7 @@
     {
       "year": 2022,
       "title": "EDUCELLS DUNGEON (Game Edukasi Sel Hewan dan Tumbuhan)",
+      "thumbnail": "/educells/1.png",
       "achievements": [
         "Terbaik 1 Apresisasi 3 Menit Karya Akhir Siswa PROCOMMIT ITS 2022"
       ],
@@ -43,6 +45,7 @@
     {
       "year": 2023,
       "title": "Si-ABaS (Aplikasi Apotek Bank Sampah)",
+      "thumbnail": "/siabas/siabas.png",
       "achievements": [
         "Juara 1 EMWEEK 11 2024",
         "Best Presentation in BIZMART PPNS 2024",
@@ -53,6 +56,7 @@
     {
       "year": 2024,
       "title": "D'Scroll Inspector",
+      "thumbnail": "/wpg2/main_menu.png",
       "achievements": [],
       "links": [
         "https://github.com/HatfanSahrul1/Catch-the-Oligarks"
@@ -61,6 +65,7 @@
     {
       "year": 2025,
       "title": "Kala the Dark Ritual",
+      "thumbnail": "/kala/cover.jpg",
       "achievements": [
         "Juara 2 Local Game Selection Surakarta 2025"
       ],
@@ -69,6 +74,7 @@
     {
       "year": 2025,
       "title": "Shutter Spirit",
+      "thumbnail": "/shutter_spirit/cover.png",
       "achievements": [],
       "links": [
         "https://growbyte.itch.io/shutter-spirit"
@@ -77,6 +83,7 @@
     {
       "year": 2025,
       "title": "Cloud Farer",
+      "thumbnail": "/cloudfarer/cover.jpg",
       "achievements": [
         "TOP 60 Student Best Game Category GAMESEED 2025"
       ],
@@ -85,6 +92,7 @@
     {
       "year": 2025,
       "title": "Selamatkan Babu",
+      "thumbnail": "/babu/cover.jpg",
       "achievements": [],
       "links": [
         "https://paduranta.itch.io/selamatkan-babu"
@@ -93,6 +101,7 @@
     {
       "year": 2025,
       "title": "UpperCup (Raylib)",
+      "thumbnail": "/UpperCup/start.png",
       "achievements": [],
       "links": [
         "https://github.com/HatfanSahrul1/Upper-Cup"
@@ -101,6 +110,7 @@
     {
       "year": 2025,
       "title": "Catch the Oligarks (Embedded System Integrated)",
+      "thumbnail": "/oligarks/mainmenu.png",
       "achievements": [],
       "links": [
         "https://github.com/HatfanSahrull/Catch-the-Oligarks"
@@ -110,6 +120,7 @@
   "freelanceProjects": [
     {
       "title": "Vision-Based Vital Signs Detection using YOLOv8",
+      "thumbnail": "/heart_rate/HR2.jpg",
       "description": [
         "Labelling dataset yang lebih dari 1000 gambar",
         "Training model menggunakan YOLOv8n",
@@ -123,6 +134,7 @@
     },
     {
       "title": "Animasi Simulasi Perlombaan JRC (Java Robot Contest)",
+      "thumbnail": "/jrc/sma.png",
       "description": [
         "Membuat animasi untuk simulasi perlombaan robot transporter dan line-follower tingkat SD, SMP, dan SMA"
       ],
@@ -136,6 +148,7 @@
   "personalProjects": [
     {
       "title": "YoloDoLabel",
+      "thumbnail": "/thumbnails/personal/icon_YoloDoLabel.png",
       "description": "Tool sederhana untuk memanfaatkan model YOLO yang kurang robust untuk membantu memberikan label pada dataset",
       "links": [
         "https://github.com/HatfanSahrull/YoloDoLabel"
@@ -143,6 +156,7 @@
     },
     {
       "title": "Unity Local Backend (Docker)",
+      "thumbnail": "/thumbnails/personal/icon_rest-api_unity.png",
       "description": "Template REST API sederhana dan siap pakai untuk Unity secara local dan dalam docker. Dibuat dengan bahasa Typescript serta menggunakan ExpressJS",
       "links": [
         "https://github.com/HatfanSahrull/unity-backend-docker-local"
