@@ -25,44 +25,6 @@
   ],
   "projects": [
     {
-      "year": 2021,
-      "title": "ARKISAH (Buku Cerita Rakyat berbasis AR)",
-      "thumbnail": "/arkisah/preview.png",
-      "achievements": [
-        "Juara 1 SMA AWARDS 2021 Kategori Technopreneur"
-      ],
-      "links": []
-    },
-    {
-      "year": 2022,
-      "title": "EDUCELLS DUNGEON (Game Edukasi Sel Hewan dan Tumbuhan)",
-      "thumbnail": "/educells/1.png",
-      "achievements": [
-        "Terbaik 1 Apresisasi 3 Menit Karya Akhir Siswa PROCOMMIT ITS 2022"
-      ],
-      "links": []
-    },
-    {
-      "year": 2023,
-      "title": "Si-ABaS (Aplikasi Apotek Bank Sampah)",
-      "thumbnail": "/siabas/siabas.png",
-      "achievements": [
-        "Juara 1 EMWEEK 11 2024",
-        "Best Presentation in BIZMART PPNS 2024",
-        "Semifinal Samsung Solve for Tomorrow 2023"
-      ],
-      "links": []
-    },
-    {
-      "year": 2024,
-      "title": "D'Scroll Inspector",
-      "thumbnail": "/wpg2/main_menu.png",
-      "achievements": [],
-      "links": [
-        "https://github.com/HatfanSahrul1/Catch-the-Oligarks"
-      ]
-    },
-    {
       "year": 2025,
       "title": "Kala the Dark Ritual",
       "thumbnail": "/kala/cover.jpg",
@@ -70,6 +32,15 @@
         "Juara 2 Local Game Selection Surakarta 2025"
       ],
       "links": []
+    },
+    {
+      "year": 2025,
+      "title": "Selamatkan Babu",
+      "thumbnail": "/babu/cover.jpg",
+      "achievements": [],
+      "links": [
+        "https://paduranta.itch.io/selamatkan-babu"
+      ]
     },
     {
       "year": 2025,
@@ -90,12 +61,12 @@
       "links": []
     },
     {
-      "year": 2025,
-      "title": "Selamatkan Babu",
-      "thumbnail": "/babu/cover.jpg",
+      "year": 2024,
+      "title": "D'Scroll Inspector",
+      "thumbnail": "/wpg2/main_menu.png",
       "achievements": [],
       "links": [
-        "https://paduranta.itch.io/selamatkan-babu"
+        "https://github.com/HatfanSahrul1/Catch-the-Oligarks"
       ]
     },
     {
@@ -115,6 +86,35 @@
       "links": [
         "https://github.com/HatfanSahrull/Catch-the-Oligarks"
       ]
+    },
+    {
+      "year": 2023,
+      "title": "Si-ABaS (Aplikasi Apotek Bank Sampah)",
+      "thumbnail": "/siabas/siabas.png",
+      "achievements": [
+        "Juara 1 EMWEEK 11 2024",
+        "Best Presentation in BIZMART PPNS 2024",
+        "Semifinal Samsung Solve for Tomorrow 2023"
+      ],
+      "links": []
+    },
+    {
+      "year": 2022,
+      "title": "EDUCELLS DUNGEON (Game Edukasi Sel Hewan dan Tumbuhan)",
+      "thumbnail": "/educells/1.png",
+      "achievements": [
+        "Terbaik 1 Apresisasi 3 Menit Karya Akhir Siswa PROCOMMIT ITS 2022"
+      ],
+      "links": []
+    },
+    {
+      "year": 2021,
+      "title": "ARKISAH (Buku Cerita Rakyat berbasis AR)",
+      "thumbnail": "/arkisah/preview.png",
+      "achievements": [
+        "Juara 1 SMA AWARDS 2021 Kategori Technopreneur"
+      ],
+      "links": []
     }
   ],
   "freelanceProjects": [
