@@ -165,17 +165,33 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-[#FF00FF] mb-8">Tentang Saya</h2>
           <div className={`${getCardClasses()} rounded-xl p-8`}>
-            <p className={`${getTextClasses('secondary')} text-lg leading-relaxed mb-6`}>
-              {portfolioData.aboutMe}
-            </p>
-            <a 
-              href="#"
-              className="inline-block bg-[#FF00FF] hover:bg-[#CC00CC] text-white px-6 py-3 rounded-lg font-semibold transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Download CV
-            </a>
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
+              {/* Profile Picture */}
+              <div className="flex-shrink-0">
+                <Image 
+                  src="/pfp.jpg"
+                  alt="Hatfan Sahrul Ramadhan"
+                  width={200}
+                  height={200}
+                  className="rounded-full object-cover border-4 border-[#FF00FF]/30 shadow-lg"
+                />
+              </div>
+              
+              {/* Content */}
+              <div className="flex-1 text-center md:text-left">
+                <p className={`${getTextClasses('secondary')} text-lg leading-relaxed mb-6`}>
+                  {portfolioData.aboutMe}
+                </p>
+                <a 
+                  href="#"
+                  className="inline-block bg-[#FF00FF] hover:bg-[#CC00CC] text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download CV
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
